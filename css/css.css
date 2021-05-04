@@ -1,0 +1,28 @@
+h1{
+    background-color:rgba(96, 96, 96,.8); 
+    color:#eee;
+    text-align: center;
+    font-weight:bold ;
+}
+
+#donor{
+    width: 25%;
+    float: left;
+    position: relative;
+    background-color:rgba(96, 96, 96,.8); 
+    color:#eee;
+    box-sizing: border-box;
+    block-size: max-content;
+    font-weight:bold ;
+}
+table{
+    background-color:rgba(96, 96, 96,.8); 
+    color:#eee;
+    float: left;
+    font-weight:bold ;
+
+    
+}
+body{
+    font-family: 'Roboto';
+}
