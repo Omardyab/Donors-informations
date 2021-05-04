@@ -6,7 +6,7 @@ h1{
 }
 
 #donor{
-    width: 25%;
+    width:40%;
     float: left;
     position: relative;
     background-color:rgba(96, 96, 96,.8); 
@@ -15,14 +15,51 @@ h1{
     block-size: max-content;
     font-weight:bold ;
 }
+#DonorName, #input2{font-weight:bold ;
+ margin:2%;
+width:200px;
+margin-right: 20px; 
+box-sizing: border-box;
+
+float: right;
+}
+#submit{
+    margin-left: 50%;
+    background-color: black;
+    color: white;
+    width:200px;
+    box-sizing: border-box;
+    float: right;
+    
+    
+}
+#tablediv{
+    background-color:rgba(96, 96, 96,.8) ;
+}
 table{
+    width:40%;
+    margin-left: 5%;
     background-color:rgba(96, 96, 96,.8); 
     color:#eee;
     float: left;
     font-weight:bold ;
-
     
 }
+tr{text-align: center;}
+th,td{
+    top:2rem;
+    border:2px white solid }
 body{
+    background-image: url('../donate-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Roboto';
+}
+#footer{
+    position:absolute;
+   bottom:0;
+   width:100%;
+   text-align: center;
+    background-color:rgba(96, 96, 96,.8); 
+    color:#eee;
 }

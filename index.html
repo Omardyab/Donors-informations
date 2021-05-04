@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/css.css">
     <title>Donors-informations</title>
 </head>
@@ -19,7 +18,7 @@
         <main>
             <form id="donor">
                 <label for="DonorName">Donor Name</label>
-                <input type="text" name="DonorName" id="DonorName">
+                <input type="text" name="DonorName" id="DonorName" required>
                 <br>
                 <label for="Amount">Amount</label>
             <select name="selection" id="input2">
@@ -34,9 +33,12 @@
             <div id=tablediv>
                 <table id="table"></table>
             </div>
+            <p id="total"></p>
         </main>
         <footer>
+            <p id="footer">© ASAC 2021</p>
             <script src="js.js"></script>
+           
         </footer>
 </body>
 </html>

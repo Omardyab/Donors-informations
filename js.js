@@ -1,4 +1,5 @@
 'use strict';
+const alltotal=document.getElementById('total');
 Donation.donors=[];
 function Donation(name,amount){
   this.name=name;
@@ -12,7 +13,7 @@ Donation.prototype.getrandomage=function(){
   return Math.floor(value);
 };
 
-
+let total=0;
 let table=document.getElementById('table');
 headerRow();
 function headerRow() {
@@ -40,7 +41,12 @@ Donation.prototype.render=function(){
   let Amount=document.createElement('td');
   headerrowdata.appendChild(Amount);
   Amount.textContent=this.amount;
-
+  total=total+parseInt(this.amount);
+  console.log(total);
+  //i could not finish this total amount but i get the total correctly :)  
+//   let totalall=document.createElement('p');
+//   alltotal.appendChild(totalall);
+//   totalall.textContent=total;
 };
 
 // function saveTols(){
